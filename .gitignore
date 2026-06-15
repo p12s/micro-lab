@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor swap / backup
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Cursor IDE
+.cursor/plans/
+.cursor/**/*.log
+.cursor/**/agent-transcripts/
+
+# VS Code / Cursor workspace
+.vscode/
+*.code-workspace
+
+# Arduino IDE — build output (applies in any nested sketch folder)
+**/build/
+*.hex
+*.elf
+*.eep
+*.lss
+*.sym
+*.map
+*.d
+*.o
+*.a
+*.lst
+*.su
+*.partitions.bin
+*.bootloader.bin
+*.merged.bin
+sdkconfig
+sdkconfig.old
+partitions.csv
+flash_args
+build.options.json
+
+# Arduino IDE — local / generated sketch files
+**/Blink.txt
+
+# PlatformIO (if used later)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Local env / secrets
+.env
+.env.*
+*.local
